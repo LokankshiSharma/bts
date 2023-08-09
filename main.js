@@ -1,7 +1,7 @@
 var img = "";
 
 function setup(){
-    canvas= createCanvas(640, 420);
+    canvas= createCanvas(640, 450);
     canvas.center();
 
 }
