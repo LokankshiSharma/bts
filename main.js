@@ -1,8 +1,8 @@
 var img = "";
 
 function setup(){
-    canvas= createCanvas(640, 200);
-    canvas.center();
+    canvas= createCanvas(600, 400);
+    canvas.position(460, 320);
 
 }
 
@@ -11,7 +11,7 @@ function preload(){
 }
 
 function draw(){
-    image(img, 0, 0, 640, 420);
+    image(img, 0, 0, 600, 400);
     fill("green");
     text ("V", 110, 85);
     noFill();
